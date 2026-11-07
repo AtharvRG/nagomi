@@ -174,7 +174,7 @@ export function App() {
   const ambientModeRef = useRef(false);
   const soundEnabledRef = useRef<boolean>(AUDIO.defaultEnabled);
   const [stats, setStats] = useState<SceneStats>(emptyStats);
-  const [showInterface, setShowInterface] = useState(true);
+  const [showInterface, setShowInterface] = useState(false);
   const [ambientMode, setAmbientMode] = useState(false);
   const [ambientControlsVisible, setAmbientControlsVisible] = useState(true);
   const [settingsOpen, setSettingsOpen] = useState(false);
